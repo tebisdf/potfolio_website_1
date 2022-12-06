@@ -3,8 +3,8 @@ import React from "react";
 import Me from "../../assets/me-about.jpg";
 import { FaAward } from "react-icons/fa";
 import { FiUsers } from "react-icons/fi";
-import "./about.css";
 import { VscFolderLibrary } from "react-icons/vsc";
+import "./about.css";
 
 export default function About() {
   return (
