@@ -4,7 +4,7 @@ import Me from "../../assets/me-about.jpg";
 import { FaAward } from "react-icons/fa";
 import { FiUsers } from "react-icons/fi";
 import { VscFolderLibrary } from "react-icons/vsc";
-import "./about.css";
+import "./About.css";
 
 export default function About() {
   return (
