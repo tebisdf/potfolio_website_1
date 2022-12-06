@@ -76,11 +76,11 @@ header {
 }
 /* //media is not working, look why */
 /* =========================  MEDIA QUERIES ( SMALL DEVICES ) =========================== */
-@media screen and (max-width: 600px) {
+@media  screen and (max-width: 600px) {
   header {
     height: 100vh;
   }
-  .header__socials .scroll__down {
-    display: none !important;
+  .header__socials,.scroll__down {
+    display: none;
   }
 }

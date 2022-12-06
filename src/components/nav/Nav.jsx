@@ -5,14 +5,14 @@ import { RiServiceLine } from "react-icons/ri";
 import "./nav.css";
 import { useState } from "react";
 export default function Nav() {
-  const [activeNav, setActiveNave] = useState("d");
+  const [activeNav, setActiveNave] = useState("");
   return (
     <div>
       <nav>
         <a
-          href="#d"
-          onClick={() => setActiveNave("d")}
-          className={activeNav === "d" ? "active" : ""}
+          href="#"
+          onClick={() => setActiveNave("")}
+          className={activeNav === "" ? "active" : ""}
         >
           <AiOutlineHome />
         </a>
